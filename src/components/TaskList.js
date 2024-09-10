@@ -14,7 +14,7 @@ function TaskList() {
         tasks.map((task) => (
           <li
             key={task.id}
-            className="mb-2 flex justify-between border border-[#ececec] p-3 items-center rounded-lg"
+            className="mb-2 flex justify-center gap-4 border border-[#ececec] p-3 items-center rounded-lg"
           >
             <span>{task.task}</span>
             <button
